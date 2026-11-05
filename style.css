@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header h1{
+    color: red;
+}
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgb(9, 32, 95);
+   color: #fff;
+   height: 60px;
+   padding: 10px;
+}
+.logo-text{
+    color: bisque;
+}
+nav > ul {
+display: flex;
+}
+nav > ul >li{
+margin: 10px;
+list-style: none;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav > ul > li > a:hover{
+color: blanchedalmond;
+margin: 3px;
+}
+.hero{ 
+    background-image:url(images/background.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    text-align: center;
+    padding: 10rch;
+}
+.hero h1{
+    color: red;
+}
+.hero p{
+    color: burlywood;
+    font-weight: 1000;
+    font-size: 32px;
+}
+.btn {
+    margin: 5px;
+    padding: 5px;
+    background-color: sandybrown;
+    border: none;
+    width: 90px;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #fff;
+    color: bisque;
+}
+.btn-secondary {
+    background-color: aqua;
+    color: black;
+}
+.btn.container{
+    margin-top: 3rcm;
+}
+.about{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    
+}
+section > h1{
+    color: burlywood;
+    margin: 20px;
+    font-size: 38px;
+    font-style: italic;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+p {
+    font-size: 32px;
+    color: black;
+}
+.left-container > span > ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.left-container > span > ul > li {
+list-style: none;
+margin: 20px;
+font-size: 24px;
+}
+.left-container > span > ul > li:hover {
+color: chocolate;
+}
+.right-container > img{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 50vh;
+}
+section {
+    text-align: center;
+    padding: 20px ;
+ 
+}
+/*services section*/
+#services{
+    background-color: black;
+    height: fit-content;
+    padding: 20;
+    color: #fff;
+}
+
+
+.card{
+    border: 1px solid rgb(218,124,8);
+    margin : 10px;
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 5px 5px 5px rgb(218,124,8);
+}
+.card > h2{
+    font-size: 18px;
+    color: blue;
+    
+}
+.card > p{
+    font-size: 16px;
+    font-style: italic;
+    color: #fff;
+   
+}
+#projects > .container{
+    background-color: black;
+}
+#testimonials > .container{
+background-color: black;
+}
+/*contact section*/
+.contact {
+    background-color: bisque;
+}
+.contact  ul  {
+    
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+    
+}
+.contact form {
+    margin-bottom: 15px;
+}
+.contact label {
+    display: block;
+    margin-bottom: 5px;
+}
+/*footer section*/
+.footer{
+    align-items: center;
+}
+.footer h1 {
+    color: burlywood;
+
+}
+.footer p { 
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(47, 28, 110);
+}
+.links h3{
+    color: blue;
+}
+.links ul {
+    list-style: none;
+    background-color: burlywood;
+}
+.links ul li {
+    margin-bottom: 10px;
+}
